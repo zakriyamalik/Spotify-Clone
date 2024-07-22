@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:"Varela Round", sans-serif;
+   
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+    color: white;
+   
+}
+
+.container
+{
+  
+    min-height:70vh;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    display:flex;
+    width: 70vw;
+    margin: 23px auto;
+    border-radius:12px;
+    padding: 20px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.brand img{
+    width: 44px;
+    padding-right: 8px;
+}
+
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder ;
+    font-size: 1.3rem;
+   
+   
+}
+
+
+#homeid
+{
+    padding-left: 23px;
+    font-size: smaller;
+    color: #d4d3cf;
+
+}
+
+#aboutid
+{
+    padding-left: 23px;
+    font-size: smaller;
+    color: #d4d3cf;
+}
+
+.container
+{
+   
+}
+
+.buttom
+{
+    position: sticky;
+    height:130px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#myProgressBar
+{
+    width: 80vw;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.icon i{
+    cursor:pointer;
+}
+
+.image-class
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    margin-left: 10px;
+}
+
+.songItem{
+    height: 70px;
+    width: 350px;
+    color: rgb(7, 4, 4);
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+    border-radius: 25px;
+}
+
+.timeStamp
+{
+    margin-right: 7px;
+    
+}
+
+.songlistplay i
+{
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.songItemContainer
+{
+    margin-top: 45px;
+}
+
+.songinfo
+{
+    font-family: "Varela Round", sans-serif;
+    font-size: larger;
+    position: absolute;
+    left: 0;
+    padding-bottom: 20px;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
